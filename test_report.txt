@@ -1,0 +1,202 @@
+
+> acm-w-ud@0.1.0 test
+> react-scripts test --coverage
+
+FAIL src/App.test.tsx
+  ✕ renders learn react link (174 ms)
+
+  ● renders learn react link
+
+    TestingLibraryElementError: Unable to find an element with the text: /learn react/i. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+    Ignored nodes: comments, script, style
+    [36m<body>[39m
+      [36m<div>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"page"[39m
+        [36m>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"site-header"[39m
+          [36m>[39m
+            [36m<img[39m
+              [33malt[39m=[32m"logo"[39m
+              [33mclass[39m=[32m"fram"[39m
+              [33mid[39m=[32m"image"[39m
+              [33msrc[39m=[32m"whiteLogo.png"[39m
+            [36m/>[39m
+            [36m<a>[39m
+              [36m<button[39m
+                [33mclass[39m=[32m"nav-bar-buttons-events btn btn-primary"[39m
+                [33mtype[39m=[32m"button"[39m
+              [36m>[39m
+                [0mEvents[0m
+              [36m</button>[39m
+            [36m</a>[39m
+            [36m<a>[39m
+              [36m<button[39m
+                [33mclass[39m=[32m"nav-bar-buttons btn btn-primary"[39m
+                [33mtype[39m=[32m"button"[39m
+              [36m>[39m
+                [0mAbout Us[0m
+              [36m</button>[39m
+            [36m</a>[39m
+            [36m<a>[39m
+              [36m<button[39m
+                [33mclass[39m=[32m"nav-bar-buttons btn btn-primary"[39m
+                [33mtype[39m=[32m"button"[39m
+              [36m>[39m
+                [0mJoin Us[0m
+              [36m</button>[39m
+            [36m</a>[39m
+            [36m<a>[39m
+              [36m<button[39m
+                [33mclass[39m=[32m"nav-bar-buttons btn btn-primary"[39m
+                [33mtype[39m=[32m"button"[39m
+              [36m>[39m
+                [0mResources[0m
+              [36m</button>[39m
+            [36m</a>[39m
+            [36m<a>[39m
+              [36m<button[39m
+                [33mclass[39m=[32m"nav-bar-buttons btn btn-primary"[39m
+                [33mtype[39m=[32m"button"[39m
+              [36m>[39m
+                [0mEBoard[0m
+              [36m</button>[39m
+            [36m</a>[39m
+          [36m</div>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"page-content"[39m
+          [36m>[39m
+            [36m<br />[39m
+            [36m<div[39m
+              [33mstyle[39m=[32m"background-color: rgb(224, 242, 253); overflow: hidden; display: flex; justify-content: center;"[39m
+            [36m>[39m
+              [36m<section[39m
+                [33mid[39m=[32m"events"[39m
+              [36m>[39m
+                [36m<br />[39m
+                [36m<h1[39m
+                  [33mid[39m=[32m"Events"[39m
+                  [33mstyle[39m=[32m"margin-bottom: 4vh;"[39m
+                [36m>[39m
+                  [0mUpcoming Events[0m
+                [36m</h1>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"events"[39m
+                [36m>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"container"[39m
+                  [36m>[39m
+                    [36m<h2>[39m
+                      [0mWe will be back in Fall 2025 to host more exciting events![0m
+                    [36m</h2>[39m
+                    [36m<h2>[39m
+                      [0mIn the meantime, feel free to connect with us over email, Discord, or Instagram![0m
+                    [36m</h2>[39m
+                    [36m<br />[39m
+                    [36m<h2>[39m
+                      [0mHappy Summer![0m
+                    [36m</h2>[39m
+                    [36m<br />[39m
+                    [36m<br />[39m
+                    [36m<div[39m
+                      [33mstyle[39m=[32m"display: flex; justify-content: center; align-content: center;"[39m
+                    [36m>[39m
+                      [36m<div[39m
+                        [33mclass[39m=[32m"container"[39m
+                        [33mstyle[39m=[32m"display: flex; justify-content: center; align-content: center; width: 70vw;"[39m
+                      [36m>[39m
+                        [36m<div[39m
+                          [33mclass[39m=[32m"row"[39m
+                        [36m>[39m
+                          [36m<div[39m
+                            [33mclass[39m=[32m"col"[39m
+                          [36m>[39m
+                            [36m<a[39m
+                              [33mhref[39m=[32m"https://www.instagram.com/acmwud/"[39m
+                              [33mrel[39m=[32m"noopener noreferrer"[39m
+                              [33mtarget[39m=[32m"_blank"[39m
+                            [36m>[39m
+                              [36m<svg[39m
+                                [33mcolor[39m=[32m"#4682B4"[39m
+                                [33mfill[39m=[32m"currentColor"[39m
+                                [33mheight[39m=[32m"5vw"[39m
+                                [33mstroke[39m=[32m"currentColor"[39m
+                                [33mstroke-width[39m=[32m"0"[39m
+                                [33mstyle[39m=[32m"color: rgb(70, 130, 180);"[39m
+                                [33mviewBox[39m=[32m"0 0 448 512"[39m
+                                [33mwidth[39m=[32m"5vw"[39m
+                                [33mxmlns[39m=[32m"http://www.w3.org/2000/svg"[39m
+                              [36m>[39m
+                                [36m<path[39m
+                                  [33md[39m=[32m"M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"[39m
+                                [36m/>[39m
+                              [36m</svg>[39m
+                            [36m</a>[39m
+                          [36m</div>[39m
+                          [36m<div[39m
+                            [33mclass[39m=[32m"col"[39m
+                            [33mstyle[39m=[32m"display: flex; justify-content: center; align-content: center;"[39m
+                          [36m>[39m
+                            [36m<button[39m
+                              [33mclass[39m=[32m"btn btn-primary"[39m
+                              [33mstyle[39m=[32m"width: 10.5vw; padding: 1vh; font-size: 1.1vw; margin-left: 10vw; background-color: rgb(70, 130, 180); border: 0px; color: white;"[39m
+                              [33mtype[39m=[32m"button"[39m
+                            [36m>[39m
+                              [0mJoin our email list![0m
+                            [36m</button>[39m
+                          [36m</div>[39m
+                          [36m<div[39m
+                            [33mclass[39m=[32m"col"[39m
+                            [33mstyle[39m=[32m"margin-left: 9.5vw;"[39m
+                          [36m>[39m
+                         ...
+
+    [0m [90m  5 |[39m test([32m'renders learn react link'[39m[33m,[39m () [33m=>[39m {
+     [90m  6 |[39m   render([33m<[39m[33mApp[39m [33m/[39m[33m>[39m)[33m;[39m
+    [31m[1m>[22m[39m[90m  7 |[39m   [36mconst[39m linkElement [33m=[39m screen[33m.[39mgetByText([35m/learn react/i[39m)[33m;[39m
+     [90m    |[39m                              [31m[1m^[22m[39m
+     [90m  8 |[39m   expect(linkElement)[33m.[39mtoBeInTheDocument()[33m;[39m
+     [90m  9 |[39m })[33m;[39m
+     [90m 10 |[39m[0m
+
+      at Object.getElementError (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/config.js:37:19)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:76:38
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:52:17
+      at getByText (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:95:19)
+      at Object.<anonymous> (src/App.test.tsx:7:30)
+      at TestScheduler.scheduleTests (node_modules/@jest/core/build/TestScheduler.js:333:13)
+      at runJest (node_modules/@jest/core/build/runJest.js:404:19)
+      at _run10000 (node_modules/@jest/core/build/cli/index.js:320:7)
+      at runCLI (node_modules/@jest/core/build/cli/index.js:173:3)
+
+---------------------|---------|----------|---------|---------|-------------------
+File                 | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+---------------------|---------|----------|---------|---------|-------------------
+All files            |   15.78 |        0 |      30 |   15.78 |                   
+ src                 |    8.33 |        0 |   33.33 |    8.33 |                   
+  App.tsx            |     100 |      100 |     100 |     100 |                   
+  index.tsx          |       0 |      100 |     100 |       0 | 9-21              
+  reportWebVitals.ts |       0 |        0 |       0 |       0 | 3-10              
+ src/Components      |   28.57 |      100 |   28.57 |   28.57 |                   
+  Eboard.tsx         |     100 |      100 |     100 |     100 |                   
+  Home.tsx           |   16.66 |      100 |   16.66 |   16.66 | 245-486           
+---------------------|---------|----------|---------|---------|-------------------
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        3.099 s
+Ran all test suites.
+[0;33mOne of your dependencies, babel-preset-react-app, is importing the
+"@babel/plugin-proposal-private-property-in-object" package without
+declaring it in its dependencies. This is currently working because
+"@babel/plugin-proposal-private-property-in-object" is already in your
+node_modules folder for unrelated reasons, but it [1mmay break at any time[0;33m.
+
+babel-preset-react-app is part of the create-react-app project, [1mwhich
+is not maintianed anymore[0;33m. It is thus unlikely that this bug will
+ever be fixed. Add "@babel/plugin-proposal-private-property-in-object" to
+your devDependencies to work around this error. This will make this message
+go away.[0m
+  
