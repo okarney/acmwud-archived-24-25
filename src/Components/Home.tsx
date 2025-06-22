@@ -139,7 +139,6 @@ function Home() {
                       <h3>Location: Memorial Hall 049</h3>
                       <p>It's peak recruiting season and prime time to learn about how to ace your technical interviews. Join us on October 3rd along with the Competitive Programming Club to learn key interview topics and how to use them in your interviews!</p>
                     </Row> */}
-
     
                     
                     {/* <Row>
