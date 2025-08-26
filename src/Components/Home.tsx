@@ -1,4 +1,4 @@
-import { Button, Col, Container, Row } from 'react-bootstrap';
+import { Button, Col, Container, Placeholder, Row } from 'react-bootstrap';
 import '../App.css';
 
 import { Link } from 'react-scroll';
@@ -12,12 +12,12 @@ import {EBoardCard} from './Eboard';
 import OliviaPicture from "./Images/EboardPictures/OliviaPicture.png"
 import JasmynPicture from "./Images/EboardPictures/JasmynPicture.jpeg"
 import UjjwalaPicture from "./Images/EboardPictures/UjjwalaPicture.jpg"
-import IshaPicture from "./Images/EboardPictures/IshaPicture.jpg"
 import JoyPicture from "./Images/EboardPictures/JoyPicture.jpg";
 import OlivePicture from "./Images/EboardPictures/OlivePicture.jpeg";
 import HannaPicture from "./Images/EboardPictures/HannaPicture.jpeg";
 import StephaniePicture from "./Images/EboardPictures/StephaniePicture.jpg";
 import KathleenPicture from "./Images/EboardPictures/KathleenPicture.jpeg";
+import placeholderPicture from "./Images/EboardPictures/placeholderPic.webp"
 
 import GroupPicture from "./Images/ClubPictures/GroupPicture.jpg";
 
@@ -525,7 +525,7 @@ function Home() {
 
             <EBoardCard name='Joy Mwaria' position='Secretary (Fall)' image={JoyPicture} githubURL='https://github.com/joymmw' linkedinURL='https://www.linkedin.com/in/joymwaria/' ></EBoardCard>
 
-            <EBoardCard name='Isha Kashif' position='Secretary (Spring)' image={IshaPicture} githubURL='https://github.com/ishakashif' linkedinURL='https://www.linkedin.com/in/ishakashif/' ></EBoardCard>
+            <EBoardCard name='Isha Kashif' position='Secretary (Spring)' image={placeholderPicture} githubURL='https://github.com/ishakashif' linkedinURL='https://www.linkedin.com/in/ishakashif/' ></EBoardCard>
             
             <EBoardCard name='Ujjwala Pothula' position='Treasurer' image={UjjwalaPicture} githubURL='https://github.com/ujjwalaa7' linkedinURL='https://www.linkedin.com/in/ujjwalap16/' ></EBoardCard>
 
